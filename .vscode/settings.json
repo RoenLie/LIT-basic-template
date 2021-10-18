@@ -22,7 +22,7 @@
       "titleBar.inactiveForeground": "#e7e7e799"
    },
    "peacock.color": "rgb(19, 35, 58)",
-   "editor.tabSize": 2,
+   "editor.tabSize": 3,
    "eslint.format.enable": true,
    "editor.formatOnSave": true,
    "editor.codeActionsOnSave": {

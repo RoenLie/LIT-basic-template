@@ -4,13 +4,13 @@ import { customElement } from 'lit/decorators.js';
 
 @customElement( 'my-component' )
 export class MyComponent extends LitElement {
-  render() {
-    return html`
+   render() {
+      return html`
       <div>my-component</div>
     `;
-  }
+   }
 
-  static styles = css`
+   static styles = css`
   :host {
      background-color: pink;
      border: 1px solid black;

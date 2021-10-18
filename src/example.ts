@@ -5,29 +5,29 @@ import { styleMap } from "lit/directives/style-map.js";
 
 @customElement( 'example-component' )
 export class Example extends LitElement {
-  @property( { type: String } ) text = "Example component";
+   @property( { type: String } ) text = "Example component";
 
-  @state() color = 'pink';
-  colors = [
-    'pink',
-    'orange',
-    'green',
-    'blue',
-    'red'
-  ];
+   @state() color = 'pink';
+   colors = [
+      'pink',
+      'orange',
+      'green',
+      'blue',
+      'red'
+   ];
 
-  changeColor() {
-    const max = this.colors.length;
-    const random = Math.floor( Math.random() * max );
-    this.color = this.colors[ random ];
-  }
+   changeColor() {
+      const max = this.colors.length;
+      const random = Math.floor( Math.random() * max );
+      this.color = this.colors[ random ];
+   }
 
-  render() {
-    const styles = {
-      backgroundColor: this.color
-    };
+   render() {
+      const styles = {
+         backgroundColor: this.color
+      };
 
-    return html`
+      return html`
       <div
         style=${ styleMap( styles ) }
         @click=${ this.changeColor }
@@ -35,9 +35,9 @@ export class Example extends LitElement {
         <span>${ this.text }</span>
       </div>
     `;
-  }
+   }
 
-  static styles = css`
+   static styles = css`
   :host {
     overflow: hidden;
     display: grid;
@@ -67,7 +67,7 @@ export class Example extends LitElement {
 
 
 declare global {
-  interface HTMLElementTagNameMap {
-    'example-component': Example;
-  }
+   interface HTMLElementTagNameMap {
+      'example-component': Example;
+   }
 };
