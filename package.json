@@ -6,7 +6,7 @@
   "description": "Basic template for a LIT component bundling with Vite",
   "main": "index.html",
   "exports": {
-    ".": "./src/my-component.ts"
+    ".": "./index.ts"
   },
   "repository": {
     "type": "git",
