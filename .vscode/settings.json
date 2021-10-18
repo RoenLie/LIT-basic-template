@@ -1,0 +1,48 @@
+{
+   "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#203a60",
+      "activityBar.activeBorder": "#bf4074",
+      "activityBar.background": "#203a60",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#bf4074",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "editorGroup.border": "#203a60",
+      "panel.border": "#203a60",
+      "sash.hoverBorder": "#203a60",
+      "sideBar.border": "#203a60",
+      "statusBar.background": "#13233a",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#203a60",
+      "statusBarItem.remoteBackground": "#13233a",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#13233a",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#13233a99",
+      "titleBar.inactiveForeground": "#e7e7e799"
+   },
+   "peacock.color": "rgb(19, 35, 58)",
+   "editor.tabSize": 2,
+   "eslint.format.enable": true,
+   "editor.formatOnSave": true,
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+   },
+   "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+   },
+   "typescript.format.insertSpaceAfterConstructor": true,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+   "typescript.format.insertSpaceAfterTypeAssertion": true,
+   "typescript.format.semicolons": "insert",
+   "typescript.preferences.importModuleSpecifier": "non-relative",
+   "typescript.preferences.quoteStyle": "double",
+   "typescript.updateImportsOnFileMove.enabled": "always",
+   "eslint.validate": [
+      "javascript",
+      "typescript"
+   ],
+}

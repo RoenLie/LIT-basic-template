@@ -1,0 +1,26 @@
+{
+  "Lit typescript component": {
+    "prefix": "lit-ts",
+    "body": [
+      "import { LitElement, css, html } from 'lit';",
+      "import { customElement, property, state } from 'lit/decorators.js';",
+      "",
+      "",
+      "@customElement( 'example-component' )",
+      "export class Example extends LitElement {",
+      "  render() {",
+      "    return html`",
+      "      <div>my-component</div>",
+      "    `;",
+      "  }",
+      "",
+      "  static styles = css`",
+      "  :host {",
+      "     background-color: pink;",
+      "  }",
+      "  `;",
+      "}"
+    ],
+    "description": "Inserts a LIT typescript component"
+  }
+}
