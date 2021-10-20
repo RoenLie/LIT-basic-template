@@ -38,30 +38,30 @@ export class Example extends LitElement {
    }
 
    static styles = css`
-  :host {
-    overflow: hidden;
-    display: grid;
-    border-radius: 1rem;
-    width: 25vw;
-    height: 25vh;
-    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
-    cursor: pointer;
-  }
-  div {
-    display: grid;
-    place-items: center;
-    font-size: 2rem;
-    user-select: none;
-    text-align: center;
-    padding: 1rem;
-  }
-  div:active {
-    box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.5);
-    cursor: pointer;
-  }
-  span {
-    font-weight: bold;
-  }
+   :host {
+      overflow: hidden;
+      display: grid;
+      border-radius: 1rem;
+      width: 25vw;
+      height: 25vh;
+      box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+      cursor: pointer;
+   }
+   div {
+      display: grid;
+      place-items: center;
+      font-size: 2rem;
+      user-select: none;
+      text-align: center;
+      padding: 1rem;
+   }
+   div:active {
+      box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.5);
+      cursor: pointer;
+   }
+   span {
+      font-weight: bold;
+   }
   `;
 }
 

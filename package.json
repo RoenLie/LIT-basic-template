@@ -1,42 +1,43 @@
 {
-  "name": "lit-basic-template",
-  "author": "Kristoffer Roen-Lie",
-  "license": "MIT",
-  "version": "1.0.0",
-  "description": "Basic template for a LIT component bundling with Vite",
-  "main": "index.html",
-  "exports": {
-    ".": "./index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RoenLie/LIT-basic-template.git"
-  },
-  "keywords": [
-    "LIT",
-    "vite",
-    "template"
-  ],
-  "bugs": {
-    "url": "https://github.com/RoenLie/LIT-basic-template/issues"
-  },
-  "homepage": "https://github.com/RoenLie/LIT-basic-template#readme",
-  "scripts": {
-    "dev": "vite",
-    "preview": "vite preview",
-    "build": "tsc && vite build",
-    "clean": "rimraf dist",
-    "clean:node": "rimraf node_modules",
-    "clean:all": "npm run clean && npm run clean:node"
-  },
-  "dependencies": {
-    "lit": "^2.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "^16.11.1",
-    "path": "^0.12.7",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.4.4",
-    "vite": "^2.6.10"
-  }
+   "name": "lit-basic-template",
+   "author": "Kristoffer Roen-Lie",
+   "license": "MIT",
+   "version": "1.0.0",
+   "description": "Basic template for a LIT component bundling with Vite",
+   "main": "index.html",
+   "exports": {
+      ".": "./index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RoenLie/LIT-basic-template.git"
+   },
+   "keywords": [
+      "LIT",
+      "vite",
+      "template"
+   ],
+   "bugs": {
+      "url": "https://github.com/RoenLie/LIT-basic-template/issues"
+   },
+   "homepage": "https://github.com/RoenLie/LIT-basic-template#readme",
+   "scripts": {
+      "dev": "vite",
+      "preview": "vite preview",
+      "build": "tsc && vite build",
+      "clean": "rimraf dist",
+      "clean:node": "rimraf node_modules",
+      "clean:all": "npm run clean && npm run clean:node"
+   },
+   "dependencies": {
+      "lit": "^2.0.2"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.1",
+      "fast-glob": "^3.2.7",
+      "path": "^0.12.7",
+      "rimraf": "^3.0.2",
+      "typescript": "^4.4.4",
+      "vite": "^2.6.10"
+   }
 }

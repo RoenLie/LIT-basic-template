@@ -7,13 +7,13 @@ export class MyComponent extends LitElement {
    render() {
       return html`
       <div>my-component</div>
-    `;
+      `;
    }
 
    static styles = css`
-  :host {
-     background-color: pink;
-     border: 1px solid black;
-  }
+   :host {
+      background-color: pink;
+      border: 1px solid black;
+   }
   `;
 }
